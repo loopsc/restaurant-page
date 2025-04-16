@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#home-page {
+    text-align: center;
+}
+
+.header-text {
+    font-size: 150px;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: green;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 5px 10px;
+}
